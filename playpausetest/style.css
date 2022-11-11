@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.hero-text {
+    color: grey;
+    font-size: 100px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.fa-solid {
+    color: white;
+}
+
+#buttons {
+    margin: auto;
+}
+
+.button {
+    display: inline-block;
+    background-color: grey;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 30px;
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 3px rgb(80, 70, 78);
+}
+
+.button:hover {
+    background-color: darkslateblue
+}
+
+.button:active{
+    background-color: darkviolet;
+    box-shadow: 2px 1px grey;
+    transform: translateY(2px);
+}
+
